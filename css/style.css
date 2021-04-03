@@ -1,0 +1,92 @@
+@import "./fonts.css";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+}
+.section {
+  width: 80%;
+  height: 90vh;
+margin: 0 auto;
+  box-shadow: 0 0 100px #dfdede;
+  text-align: justify;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin: 40px auto 0px;
+width: 1150px;
+  padding-top: 80px;
+  font-weight: normal;
+}
+.block-text::first-letter {
+  font-family: "Playfair Display", serif;
+  font-size: 100px;
+  font-weight: 400;
+  float: left;
+  line-height: 100px;
+  padding-right: 35px;
+  margin-top: -5px;
+  color: black;
+}
+.block-text {
+  margin: 0 auto;
+  width: 1150px;
+  height: 70%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: -0.08px;;
+  color: #5a5858;
+}
+
+p {
+    padding-top: 30px;
+}
+
+.mark {
+    font-size: 60px;
+    font-style: italic;
+}
+.span_text {
+    font-size: 24px;
+    font-style: italic;
+    display: inline-block;
+    padding-top: 20px;
+    color: rgb(134, 134, 134);
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #fff;
+    display: block;
+    color: #eaa258;
+    border: #eaa258 2px solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    width: 260px;
+}
+
+.btn:hover{
+    background-color: #eaa258;
+    color: #fff;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    cursor: pointer;
+}
